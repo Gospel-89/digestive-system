@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>&lt;Digestive system&gt; example</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="demo-styles.css">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    
+    <!-- The following libraries and polyfills are recommended to maximize browser support -->
+    <!-- NOTE: you must adjust the paths as appropriate for your project -->
+    
+    <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+
+  </head> 
+  
+  
+<body>
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+    <model-viewer src="https://cdn.glitch.global/89ab0832-6974-45be-a083-7d1303b88bea/digestive%20system.glb?v=1656612692425"
+                  ios-src="https://cdn.glitch.global/89ab0832-6974-45be-a083-7d1303b88bea/digestive%20system.usdz?v=1656801744394"
+                  poster="https://cdn.glitch.global/89ab0832-6974-45be-a083-7d1303b88bea/poster.png?v=1656613350322"
+                  alt="A 3D model of an astronaut"
+                  shadow-intensity="1"
+                  camera-controls
+                  auto-rotate ar>
+      
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.021366262261776247m -0.8223559574053922m -0.17202195070719545m" data-normal="-0.4028002675272917m -0.4573707371906392m 0.7928202527948146m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Rectum</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.24792818649424836m -0.5743214370759848m 0.01546133539407471m" data-normal="0.19261637978948193m 0.08680724939201821m 0.9774269444259177m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Large intestine</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.0009416765731463106m -0.42066641103536584m 0.11065097686187005m" data-normal="0.03008614393117855m -0.2417141129686839m 0.969880978025198m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Small Intestine</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.14290133561361187m -0.21232113536511793m 0.12296880248235693m" data-normal="-0.11042046738096101m -0.7019085622932911m 0.7036559461574493m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Gall bladder</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="0.12593433436380658m -0.1096239251911392m 0.11157689409584023m" data-normal="0.34464240271482266m 0.6182228539418461m 0.706414975149135m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Stomach</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-0.20916519505242626m -0.003546206043456082m 0.004545174893825055m" data-normal="-0.3128123975528889m 0.9231344624046699m 0.22354231871852528m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Liver</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.002509526201953882m 0.5958137370357057m -0.07815050865922529m" data-normal="0.33634972667332713m -0.3883466655573262m 0.8579369025268028m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Oesophagus</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="0.02071517946040391m 0.8385993549403062m 0.047805732622894115m" data-normal="0.7360437524346434m -0.5365878940698894m 0.4126899882957796m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Saliva gland</div>
+    </button>
+    
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    
+</model-viewer>
+
+    <section class="attribution">
+      <span>
+        <h1>Digestive system</h1>
+        <span>By <a href="https://www.linkedin.com/in/gospel-ononwi-3a6168126" target="_blank">Gospel Ononwi</a></span>
+      </span>
+    </section>
+    
+  </div>
+  
+  
+  <footer>
+    <span>The digestive system includes the mouth, pharynx (throat), esophagus, stomach, small intestine, large intestine, rectum, and anus. It also includes the salivary glands, liver, gallbladder, and pancreas, which make digestive juices and enzymes that help the body digest food and liquids.</span>
+  </footer>
+  
+  
+  <!-- 💁 Include both scripts below to support all browsers! -->
+
+  <!-- Loads <model-viewer> for modern browsers: -->
+  <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+</body>
+</html>
